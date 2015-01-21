@@ -347,7 +347,9 @@ function moveTabLeft(el) {
     lis.eq(i-1).show();
   }
 }
-
+	$(document).ready(function(){
+		$(".help").hide();	
+	});
 function displayTabsButtons() {
   var lis;
   var tabsWidth = 0;
